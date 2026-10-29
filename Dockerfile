@@ -21,7 +21,7 @@ COPY . .
 # =============================================================================
 
 # TODO(step-4d): set the runtime base image (same tag as step-4a for consistency).
-FROM node:24slim AS runtime
+FROM node:24-slim AS runtime
 
 WORKDIR /app
 
